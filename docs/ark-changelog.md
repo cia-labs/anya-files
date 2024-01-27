@@ -14,3 +14,8 @@ This document serves as a change log, detailing the updates, modifications, and 
   - Installed and configured Portainer for container management.
   - `ark004` is the main host for Portainer, managing other hosts' Docker APIs through the Portainer agent.
   - Enabled the management of Docker containers on any host via the Portainer web UI hosted on `ark004`.
+- _As of today_
+  - Added three additional hard disks to `ark001`, totaling 1.5TB of storage for the machine.
+  - Created an LVM of all these disks and mounted it as `/mnt/arkdisk`.
+  - Set up an NFS server on `ark001` to make the storage accessible from all hosts.
+  - Set up NFS clients on all other hosts and mounted the storage as `/mnt/arkdisk` on the clients as well.
