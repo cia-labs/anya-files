@@ -4,9 +4,10 @@ This document serves as a change log, detailing the updates, modifications, and 
 
 ## Change Log
 
-- _As of January 28th, 2024_
+### January 28th, 2024
   - Initial documentation setup.
-- _As of January 27th, 2024_
+
+### January 27th, 2024
   - Discontinued the use of MAAS for server setup.
   - Transitioned to standard Ubuntu server installations with Cockpit for remote UI access.
   - All four servers can be managed from a single Cockpit instance.
