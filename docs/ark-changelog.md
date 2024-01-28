@@ -5,7 +5,8 @@ This document serves as a change log, detailing the updates, modifications, and 
 ## Change Log
 
 ### January 28th, 2024
-  - Initial documentation setup.
+  - Transitioned the disk pool setup on `ark001` from LVM grouping to ZFS with RAID5, totaling 1TB of storage for increased reliability.
+  - The ZFS storage is still accessible from other hosts at the same mount point `/mnt/arkdisk`.
 
 ### January 27th, 2024
   - Discontinued the use of MAAS for server setup.
