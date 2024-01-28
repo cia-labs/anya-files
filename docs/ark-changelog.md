@@ -7,6 +7,8 @@ This document serves as a change log, detailing the updates, modifications, and 
 ### January 28th, 2024
   - Transitioned the disk pool setup on `ark001` from LVM grouping to ZFS with RAID5, totaling 1TB of storage for increased reliability.
   - The ZFS storage is still accessible from other hosts at the same mount point `/mnt/arkdisk`.
+  - VMs can now be provisioned in `ark002` through the Cockpit UI.
+  - Added a file explorer to the Cockpit interface for enhanced file management.
 
 ### January 27th, 2024
   - Discontinued the use of MAAS for server setup.
