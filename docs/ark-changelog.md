@@ -8,7 +8,6 @@ This document serves as a change log, detailing the updates, modifications, and 
   - Initial documentation setup.
 
 ### January 27th, 2024
-  - **TL;DR:** Server setup transitioned from MAAS to Ubuntu with Cockpit, Portainer for container management on `ark004`, storage expansion and NFS setup on `ark001`, Cloudflare tunnels for secure access, GPU drivers installed, and Ollama service running on `ark003`.
   - Discontinued the use of MAAS for server setup.
   - Transitioned to standard Ubuntu server installations with Cockpit for remote UI access.
   - All four servers can be managed from a single Cockpit instance.
@@ -23,3 +22,5 @@ This document serves as a change log, detailing the updates, modifications, and 
   - All nodes are accessible through Cloudflare tunnels for secure and convenient remote access.
   - Installed GPU drivers on all nodes for enhanced computing capabilities.
   - `ark003` hosts a service called Ollama for inference, utilizing its GTX 1060 GPU.
+
+  - **TL;DR:** Server setup transitioned from MAAS to Ubuntu with Cockpit, Portainer for container management on `ark004`, storage expansion and NFS setup on `ark001`, Cloudflare tunnels for secure access, GPU drivers installed, and Ollama service running on `ark003`.
