@@ -19,3 +19,6 @@ This document serves as a change log, detailing the updates, modifications, and 
   - Created an LVM of all these disks and mounted it as `/mnt/arkdisk`.
   - Set up an NFS server on `ark001` to make the storage accessible from all hosts.
   - Set up NFS clients on all other hosts and mounted the storage as `/mnt/arkdisk` on the clients as well.
+  - All nodes are accessible through Cloudflare tunnels for secure and convenient remote access.
+  - Installed GPU drivers on all nodes for enhanced computing capabilities.
+  - `ark003` hosts a service called Ollama for inference, utilizing its GTX 1060 GPU.
